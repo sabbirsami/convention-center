@@ -1,0 +1,15 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* SLIDER SECTION START  */
+.slider_section .slider_dis{
+    padding: 200px;
+}
+.slider_section .slider_dis h1{
+    font-size: 56px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+/
