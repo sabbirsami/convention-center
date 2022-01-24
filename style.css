@@ -3,9 +3,6 @@ body{
 }
 
 /* SLIDER SECTION START  */
-.slider_section .slider_dis{
-    padding: 200px;
-}
 .slider_section .slider_dis h1{
     font-size: 56px;
     font-family: poppins;
@@ -34,8 +31,26 @@ body{
     padding: 5px;
     margin-right: 5px;
 }
-
-
 .fnq_section{
-    padding: 100px 0;
+    padding: 50px 0 100px 0;
+}
+
+@media (max-width: 575px){
+    .w-100 {
+        width: 220%!important;
+    }
+    .slider_section .slider_dis h1{
+        font-size: 30px;
+    }
+    .slider_section .slider_dis p{
+        font-size: 10px;
+    }
+}
+@media (max-width: 992px){
+    .slider_section .slider_dis h1{
+        font-size: 30px;
+    }
+    .slider_section .slider_dis p{
+        font-size: 12px;
+    }
 }
